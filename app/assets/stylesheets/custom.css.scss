@@ -141,3 +141,24 @@ aside{
 .gravatar_edit{
     margin-top: 15px;
 }
+
+
+/* forms 
+
+input, textarea, select , .uneditable-input{
+    border: 1px solid #bbb;
+    width: 100px;
+    margin-bottom: 15px;
+    @include box_sizing
+    
+}
+
+*/
+
+.signup-form input {
+     width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+     @include box-sizing;
+}
