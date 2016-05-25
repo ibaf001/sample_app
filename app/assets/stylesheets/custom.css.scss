@@ -162,3 +162,18 @@ input, textarea, select , .uneditable-input{
     box-sizing: border-box;
      @include box-sizing;
 }
+
+#error_explanation{
+    color:red;
+    ul{
+        color: red;
+        margin:0 0 30px 0;
+    }
+}
+
+.field_with_errors{
+    @extend .has-error;
+    .form-control{
+        color: $state-danger-text;
+    }
+}
